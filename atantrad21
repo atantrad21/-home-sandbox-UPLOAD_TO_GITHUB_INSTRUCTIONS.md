@@ -1,0 +1,17 @@
+cd /home/sandbox/medical-app-working
+
+# Initialize git repository
+git init
+
+# Add all files
+git add .
+
+# Commit files
+git commit -m "Initial commit: I-Translation backend with DICOM support"
+
+# Add your GitHub repository as remote
+git remote add origin https://github.com/atantrad21/medical-app-working.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
